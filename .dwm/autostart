@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# feh --bg-fill ~/Pictures/wall/chad.png &
+
+xrdb merge ~/Public/xresources/ocean/.Xresources &
+
+# picom & 
+
+xbacklight -set 70 &
+
+~/.dwm/bars/nord.sh &
+
+dwm
